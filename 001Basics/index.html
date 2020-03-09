@@ -1,23 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+<link rel="stylesheet" type="text/css" href="css/menu.css">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <script>
-        var password = prompt("请输入密码，不要让别人看到");
-        if (password == 123){
-            alert("密码正确");
-        }
-       
-        else{
-            alert("密码错误===");
-            alert("你是不是喜欢尹岚呀！！");
-        }
-
-
-    </script>
 </head>
 <body>
-
+<div class="header-left"><img class="header-img" src="images/uiLogo.png"></div>
+<div id="nav">
+    <ul>
+        <li class="menu2" onMouseOver="this.className='menu1'"
+            onMouseOut="this.className='menu2'"onclick="window.location.reload();">首页</a>
+        </li>
+        <li class="menu2" onMouseOver="this.className='menu1'"
+            onMouseOut="this.className='menu2'"><a href="sub">发现<img class="" src="images/sub.png"></a>
+            <div class="list">
+                <a href="#">作品</a><br />
+                <a href="#">文章</a><br />
+                <a href="#">活动</a><br />
+                <a href="#">设计大赛</a><br />
+                <a href="#">设计团队</a><br />
+            </div>
+        </li>
+        <li class="menu2" onMouseOver="this.className='menu1'"
+            onMouseOut="this.className='menu2'"><a href="http://www.divcss5.com/html/">学习</a>
+            <div class="list">
+                <a href="#">教程</a><br />
+                <a href="#">专题</a><br />
+                <a href="#">书籍</a><br />
+                <a href="#">UTalk</a><br />
+                <a href="#">每周临摹</a><br />
+            </div>
+        </li>
+        <li class="menu2" onMouseOver="this.className='menu1'"
+            onMouseOut="this.className='menu2'"><a href="http://www.divcss5.com/rumen/">培训</a>
+            <div class="list">
+                <a href="#">线下培训</a><br />
+                <a href="#">在线课程</a><br />
+            </div>
+        </li>
+        <li class="menu2" onMouseOver="this.className='menu1'"
+            onMouseOut="this.className='menu2'"><a href="http://www.divcss5.com/rumen/">认证</a>
+        </li>
+        <li class="menu2" onMouseOver="this.className='menu1'"
+            onMouseOut="this.className='menu2'"><a href="http://www.divcss5.com/rumen/">榜单</a>
+        </li>
+        <li class="menu2" onMouseOver="this.className='menu1'"
+            onMouseOut="this.className='menu2'"><a href="http://www.divcss5.com/rumen/">会员Plus</a>
+        </li>
+        <li class="menu2" onMouseOver="this.className='menu1'"
+            onMouseOut="this.className='menu2'"><a href="http://www.divcss5.com/rumen/">更多</a>
+            <div class="list">
+                <a href="#">招聘</a><br />
+                <a href="#">话题</a><br />
+                <a href="#">字库</a><br />
+                <a href="#">工具</a><br />
+                <a href="#">公众号联盟</a><br />
+                <a href="#">UXDC</a><br />
+            </div>
+        </li>
+    </ul>
+    <div class="main">主题
+        <div class="main-left"></div>
+        <div class="main-center"></div>
+        <div class="main-right"></div>
+    </div>
+    <div class="footer">底部
+        <div class="footer-left"></div>
+        <div class="footer-center"></div>
+        <div class="footer-right"></div>
+    </div>
+</div>
 </body>
 </html>
